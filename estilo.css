@@ -1,0 +1,32 @@
+#banner{
+
+    background-image: url(img/imagen1.png);
+    background-size: cover;
+    padding: 20% 2%;
+    position: relative;
+    z-index:  1;;
+}
+
+#banner::after{
+    position: absolute;
+    background-color: burlywood;
+    content:'';
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0.4;
+    z-index: -1;
+
+}
+
+#banner h1{
+ color: palevioletred;
+ position: relative;
+ font-size: 5rem;
+}
+
+.bg-dark{
+    background-color: transparent !important;
+
+}
