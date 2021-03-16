@@ -1,32 +1,56 @@
 #banner{
-
-    background-image: url(img/imagen1.png);
+    background-image: url(img/imagen.jpeg);
     background-size: cover;
     padding: 20% 2%;
-    position: relative;
-    z-index:  1;;
+    position:relative;
+    z-index:1;
+    background-attachment: fixed;
 }
 
 #banner::after{
-    position: absolute;
-    background-color: burlywood;
-    content:'';
+    content: '';
+    position:absolute;
+    background-color: black;
     height: 100%;
     width: 100%;
-    left: 0;
-    top: 0;
-    opacity: 0.4;
-    z-index: -1;
-
+    left:0;
+    top:0;
+    opacity:0.55;
+    z-index:-1; 
 }
 
 #banner h1{
- color: palevioletred;
- position: relative;
- font-size: 5rem;
+    color:white;
+    position:relative;
+    font-size:4rem;
 }
 
 .bg-dark{
-    background-color: transparent !important;
 
+    background-color:transparent !important;
 }
+
+.zoom{
+    overflow: hidden;
+}
+
+.zoom img{
+    transition: 0.5s ease;
+}
+
+.zoom:hover img{
+    transform: scale(1.5);
+}
+.descripcion{
+    font-family: 'Pacifico', cursive;
+    font-size:20px ;
+}
+ .fondoicono{
+     color: black;
+ }
+
+
+
+
+
+
