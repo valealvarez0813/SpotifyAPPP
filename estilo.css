@@ -41,6 +41,19 @@
 .zoom:hover img{
     transform: scale(1.5);
 }
+.zoom2{
+    overflow: hidden;
+}
+
+.zoom2 img{
+    transition: 0.5s  filter 1s ease;
+    filter: grayscale(100%) ;
+}
+
+.zoom2:hover img{
+    filter: grayscale(0) ;
+    transform: scale(1);
+}
 .descripcion{
     font-family: 'Pacifico', cursive;
     font-size:20px ;
@@ -52,6 +65,7 @@
  .fondo2{
      background-color:goldenrod ;
  }
+
 
 
 
