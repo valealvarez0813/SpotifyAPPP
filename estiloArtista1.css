@@ -42,3 +42,10 @@
     margin-left: -15rem;
   }
 }
+
+#banner2{
+  background-image: url(img/m.jpg);
+  background-size: cover;
+  padding: 20% 2%;
+  background-attachment: fixed;
+}
